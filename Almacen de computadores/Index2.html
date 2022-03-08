@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-nav">
+        <div>
+            <h1>Almacén de computadores</h1> 
+        </div>
+        <div>
+            <a href="/Index2.html"><button id="checkout" class="button-checkout" >Comprar</button></a>
+            <a href="/Index.html"><button id="casa" class="button-checkout2" >Home</button></a>
+        </div>
+    </div>
+    <main>
+ 
+    <div id="ocultar" class="ocultar">
+        <input id="input" type="Number" placeholder="Cantidad de computadores:" class="insertar-cantidad" />
+        <br>
+        <button id="calcular" class="button-checkout3" onclick="agrupar()">Calcular </button>
+    </div>
+
+    <div>    
+        <p id="valor-compras" class="totales"></p>
+        <p id="descuento" class="totales"></p>
+        <p id="Total" class="totales"></p>
+    </div>
+
+    </main>
+
+
+    <footer>
+        <h3>Derechos reservados &copy; 2022</h3>
+        <h3>Diseñado por: Geraldine A</h3>     
+    </footer>
+    <script src="/Index2.js"></script>
+</body>
+</html>
